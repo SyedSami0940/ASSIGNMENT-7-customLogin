@@ -10,6 +10,13 @@ class homeScreen extends StatefulWidget {
 class _homeScreenState extends State<homeScreen> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+   return Scaffold(
+      appBar: AppBar(
+        title: Text('Identity App'),
+      ),
+      body: Center(
+        child: Text("Welcome to the new Era"),
+      ),
+    );
   }
 }
